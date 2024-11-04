@@ -141,7 +141,7 @@ main {
 }
 
 .page-section>div {
-  flex: 0 0 77%;
+  flex: 0 0 70%;
 }
 
 .page-section p {
@@ -221,18 +221,35 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
-.run-buddy {}
+.project-1 {
+  background-image: url(./assets/Images/Lauren.JPG);
+  background-size: 100%;
+}
 
-.led-wall {}
+.project-2 {
+  background-image: url(./assets/Images/Dog.jpeg);
+  background-size: 100%;
+}
 
-.react-calc {}
+.project-3 {
+  background-image: url(./assets/Images/SnowDog.jpg);
+  background-size: 100%;
 
-.pastel-puzzles {}
+}
 
-.surf-report {}
+.project-4 {
+  background-image: url(./assets/Images/Mountain.JPG);
+  background-size: 100%;
+
+}
+
+.project-5 {
+  background-image: url(./assets/Images/Lake.JPG);
+  background-size: 100%;
+
+}
 
 /* media queries */
-
 
 /* media queries for a max-width of 980px */
 @media screen and (max-width: 980px) {
@@ -271,8 +288,19 @@ main {
 /* TODO: add media query for a max-width of 768px */
 
 @media screen and (max-width:768px) {
-  .flex-item:first-child {
+  /* .flex-item:first-child {
     min-height: 100%;
     flex-basis: 100%;
+  } */
+
+  .flex-item:first-child {
+    max-height: 100%;
+    min-height: 150px;
+    flex-basis: 100%;
   }
+  .flex-item {
+    max-height: 100%;
+    flex-basis: 100%;
+  }
+
 }
